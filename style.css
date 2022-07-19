@@ -106,3 +106,17 @@ p{
     margin-bottom:1.25rem ;
     color: var(--color-grey-5);
 }
+
+/*
+-----------
+Classes Style
+-----------
+*/
+.section{
+    padding: 5rem 0;
+}
+.section-center{
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+}
