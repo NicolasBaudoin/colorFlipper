@@ -9,8 +9,8 @@ function getRandomNumber(min, max) {
 }
 
 btn.addEventListener("click", function () {
-  //get random number between 0 and 3
-  const randomNumber = getRandomNumber(0, 4);
+  //get random number to select a color index in array color
+  const randomNumber = getRandomNumber(0, colors.length - 1);
   document.body.style.backgroundColor = colors[randomNumber];
   color.textContent = colors[randomNumber];
   console.log(randomNumber);
